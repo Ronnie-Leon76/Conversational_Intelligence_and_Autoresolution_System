@@ -91,8 +91,8 @@ Data/
 
 1. **Clone and Setup**
    ```bash
-   git clone [repository-url]
-   cd ciarp
+   git clone https://github.com/Ronnie-Leon76/Conversational_Intelligence_and_Autoresolution_System
+   cd Conversational_Intelligence_and_Autoresolution_System
    npm install
    ```
 
