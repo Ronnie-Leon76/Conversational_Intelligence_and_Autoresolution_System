@@ -9,7 +9,6 @@ import { RealTimeMonitor } from "@/components/real-time-monitor"
 import { VconExplorer } from "@/components/vcon-explorer"
 import { AutoResolutionEngine } from "@/components/auto-resolution-engine"
 import { CrossDomainIntelligence } from "@/components/cross-domain-intelligence"
-import { AIAssistant } from "@/components/ai-assistant"
 
 export default function Dashboard() {
   const [activeTab, setActiveTab] = useState("analytics")
@@ -27,8 +26,6 @@ export default function Dashboard() {
         return <AutoResolutionEngine domain={selectedDomain} />
       case "cross-domain":
         return <CrossDomainIntelligence selectedDomain={selectedDomain} onDomainChange={setSelectedDomain} />
-      case "ai-assistant":
-        return <AIAssistant domain={selectedDomain} />
       default:
         return <ConversationAnalytics domain={selectedDomain} />
     }
