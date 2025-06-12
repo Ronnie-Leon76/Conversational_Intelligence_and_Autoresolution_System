@@ -49,7 +49,7 @@ const menuItems = [
     id: "ai-assistant",
     title: "AI Assistant",
     icon: Sparkles,
-    description: "GPT-4o-mini powered insights",
+    description: "AI-powered insights",
   },
   {
     id: "cross-domain",
